@@ -7,6 +7,11 @@ import "fmt"
 
 var j = 16
 
+/* We have 3 ways of declaring variables in go
+  1. var i int
+  2. var i = 20
+  3. i := 20
+*/
 
 // multiple variable declarations
 var (
@@ -21,7 +26,7 @@ var (
 	age  = 24
 )
 
-var googleHttpUrl string = "https://www.google.com"
+var googleHttpURL string = "https://www.google.com"
 
 func main() {
 	var i = 40
@@ -30,7 +35,7 @@ func main() {
 	println()
 	fmt.Println(actorName, idNumber, actressName, season)
 	fmt.Println(name, age)
-	fmt.Println("Url: " + googleHttpUrl)
+	fmt.Println("Url: " + googleHttpURL)
 
 	var j float32
 	j = float32(i)
