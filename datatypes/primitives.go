@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	// Boolean type, valuees are T or F, default is false (0)
+	// Boolean type, values are T or F, default is false (0)
 	var name bool
 	fmt.Printf("%v, %T\n", name, name)
 	b1 := true
