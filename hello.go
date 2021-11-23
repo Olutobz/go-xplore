@@ -8,9 +8,9 @@ import "fmt"
 var j = 16
 
 /* We have 3 ways of declaring variables in go
-  1. var i int
-  2. var i = 20
-  3. i := 20
+1. var i int
+2. var i = 20
+3. i := 20
 */
 
 // multiple variable declarations
