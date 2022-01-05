@@ -1,7 +1,7 @@
 package main
 
-/*Author: Onikoyi Damola Olutoba
-  date: 16/11/2021
+/* Author: Onikoyi Damola Olutoba
+   date: 16/11/2021
 */
 import "fmt"
 
@@ -9,10 +9,10 @@ var j = 16
 
 // multiple variable declarations
 var (
-	actorName   string = "Dwayne Johnson"
-	idNumber    int    = 44
-	actressName string = "Jessica Alba"
-	season      int    = 6
+	actorName   = "Dwayne Johnson"
+	idNumber    = 44
+	actressName = "Jessica Alba"
+	season      = 6
 )
 
 var (
@@ -20,10 +20,10 @@ var (
 	age  = 24
 )
 
-var googleHttpURL string = "https://www.google.com"
+var googleHttpURL = "https://www.google.com"
 
 func main() {
-	var i = 40
+	i := 40
 	fmt.Println(i)
 	fmt.Printf("%v, %T", j, j)
 	println()
