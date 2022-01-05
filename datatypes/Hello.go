@@ -38,10 +38,8 @@ func main() {
 	// Boolean type, values are T or F, default is false (0)
 	var name bool
 	fmt.Printf("%v, %T\n", name, name)
-	b1 := true
-	b2 := false
-	fmt.Printf("%v, %T\n", b1, b1)
-	fmt.Printf("%v, %T\n", b2, b2)
+	fmt.Printf("%v, %T\n", true, true)
+	fmt.Printf("%v, %T\n", false, false)
 
 	// Numeric types: int8, int16, int32, int64
 	n := 42
@@ -152,11 +150,6 @@ func main() {
 	fmt.Println(add(1, 2, 3))
 
 	fmt.Println("factorial of 5! is: ", factorial(5))
-}
-
-// functions
-func average(x int) {
-	fmt.Println("average method")
 }
 
 func add(args ...int) int {
