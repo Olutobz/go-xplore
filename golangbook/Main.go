@@ -41,10 +41,43 @@ func main() {
 
 	feetToMetres(1)
 
+	for i := 1; i <= 10; i++ {
+		fmt.Println(i)
+	}
+
+	for i := 0; i < 6; i++ {
+		switch i {
+		case 0:
+			fmt.Println("Zero")
+		case 1:
+			fmt.Println("One")
+		case 2:
+			fmt.Println("Two")
+		case 3:
+			fmt.Println("Three")
+		case 4:
+			fmt.Println("Four")
+		case 5:
+			fmt.Println("Five")
+		default:
+			fmt.Println("Unknown Number")
+		}
+	}
+
+	for i := 1; i <= 100; i++ {
+		if i%3 == 0 {
+			fmt.Println("Fizz")
+		} else if i%5 == 0 {
+			fmt.Println("Buzz")
+		} else if i%3 == 0 && i%5 == 0 {
+			fmt.Println("FizzBuzz")
+		}
+	}
+
 }
 
 func fahrenheitToCelsius(fahrenheit float64) {
-	// (C = (F − 32) * 5/9).
+	// (C = (F − 32) * 5/9)
 	var celsius float64
 	celsius = (fahrenheit - 32) * 5 / 9
 	fmt.Println(fahrenheit, "fahrenheit is", celsius, "celsius")
