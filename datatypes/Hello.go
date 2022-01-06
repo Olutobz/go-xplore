@@ -1,9 +1,10 @@
 package main
 
+import "fmt"
+
 /* Author: Onikoyi Damola Olutoba
    date: 16/11/2021
 */
-import "fmt"
 
 var j = 16
 

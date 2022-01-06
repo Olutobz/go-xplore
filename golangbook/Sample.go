@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/* Author: Onikoyi Damola Olutoba
+   date: 06/01/2022
+*/
 func main() {
 	var x [5]int
 	x[4] = 24

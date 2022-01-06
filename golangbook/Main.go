@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/* Author: Onikoyi Damola Olutoba
+   date: 05/01/2022
+*/
 func main() {
 	fmt.Println("Hello Olutoba")
 	fmt.Println("Welcome to Go programming language!")
