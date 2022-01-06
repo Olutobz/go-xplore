@@ -42,11 +42,9 @@ func main() {
 	fmt.Printf("%v, %T\n", true, true)
 	fmt.Printf("%v, %T\n", false, false)
 
-	// Numeric types: int8, int16, int32, int64
 	n := 42
 	fmt.Printf("%v, %T\n", n, n)
 
-	// basic arithmetic
 	a := 10
 	b := 3
 	fmt.Println("addition:", a+b)
