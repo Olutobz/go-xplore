@@ -147,9 +147,7 @@ func main() {
 	elements["F"] = "Fluorine"
 	elements["Ne"] = "Neon"
 	fmt.Println(elements)
-
 	fmt.Println(add(1, 2, 3))
-
 	fmt.Println("factorial of 5! is: ", factorial(5))
 }
 
