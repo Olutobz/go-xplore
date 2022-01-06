@@ -77,14 +77,12 @@ func main() {
 }
 
 func fahrenheitToCelsius(fahrenheit float64) {
-	// (C = (F − 32) * 5/9)
 	var celsius float64
 	celsius = (fahrenheit - 32) * 5 / 9
 	fmt.Println(fahrenheit, "fahrenheit is", celsius, "celsius")
 }
 
 func feetToMetres(ft float64) {
-	// (1 ft = 0.3048 m)
 	x := ft * 0.3048
 	fmt.Println(ft, "feet is", x, "metres")
 }
