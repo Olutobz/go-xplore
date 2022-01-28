@@ -86,6 +86,9 @@ func main() {
 	fmt.Printf("%v,  %T\n", str, str)
 	fmt.Printf("%v,  %T\n", string(str[6]), str[2])
 
+	school := "Obafemi Awolowo University"
+	fmt.Println(school)
+
 	dogName := "max"
 	fmt.Println("My dog's name is ", dogName)
 
